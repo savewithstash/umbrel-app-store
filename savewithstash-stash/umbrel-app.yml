@@ -2,7 +2,7 @@ manifestVersion: 1
 id: savewithstash-stash
 category: ai
 name: Stash
-version: "1.0.0"
+version: "1.0.1"
 tagline: Hoard everything, find anything — your private on-device AI inbox
 description: >-
   A chat-style replacement for that private Discord channel where you dump
@@ -35,7 +35,10 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: ""
+releaseNotes: >-
+  Adds Intel (amd64) support so Stash now runs on Umbrel Home and x86
+  installs in addition to the Raspberry Pi, plus build reliability fixes.
+  No changes to your saved notes, chats, or models.
 dependencies: []
 submitter: savewithstash
 submission: https://github.com/savewithstash/stash
